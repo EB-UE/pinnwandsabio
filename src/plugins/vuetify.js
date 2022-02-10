@@ -5,6 +5,15 @@ import 'vuetify/styles'
 // Vuetify
 import { createVuetify } from 'vuetify'
 
-export default createVuetify(
+export default createVuetify({
   // https://vuetifyjs.com/en/introduction/why-vuetify/#feature-guides
-)
+  theme: {
+    themes: {
+      light: {
+        colors: {
+          primary: '#5a2873',
+        },
+      },
+    },
+  },
+})
