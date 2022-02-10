@@ -14,39 +14,24 @@
       </v-col>
     </v-row>
 
-    <v-row class="bg-primarys">
+    <v-row>
       <v-col cols="4">
-        <v-btn
-          rounded
-          block
-          color="primary"
-          to="https://eb.sabio.de/web/#!/fullscreen/_id/1644246169/text/_id/520f21a91e074501b866b43f42c8d57d"
-        >
-          <v-icon left> mdi-movie-open-play</v-icon> Wie bediene ich die
-          Suche?</v-btn
-        >
+        <button-with-link
+          buttonText="Wie bediene ich die Suche?"
+          link="https://eb.sabio.de/web/#!/fullscreen/_id/1644246169/text/_id/520f21a91e074501b866b43f42c8d57d"
+        ></button-with-link>
       </v-col>
       <v-col cols="4">
-        <v-btn
-          rounded
-          block
-          color="primary"
-          to="https://eb.sabio.de/web/#!/fullscreen/_id/1644246199/text/_id/0607fe0c8034467dafa3e1b8af1875ae"
-        >
-          <v-icon left> mdi-movie-open-play</v-icon>Wie Kann ich die Ansichten
-          steuern?</v-btn
-        >
+        <button-with-link
+          buttonText="Wie Kann ich die Ansichten steuern?"
+          link="https://eb.sabio.de/web/#!/fullscreen/_id/1644246199/text/_id/0607fe0c8034467dafa3e1b8af1875ae"
+        ></button-with-link>
       </v-col>
       <v-col cols="4">
-        <v-btn
-          rounded
-          block
-          color="primary"
-          to="https://eb.sabio.de/web/#!/fullscreen/_id/1644246223/text/_id/d10b2c41ac7e48ea9a6a796dd79895fd"
-        >
-          <v-icon left> mdi-movie-open-play</v-icon>Wie kann ich einen Vorschlag
-          unterbreiten?</v-btn
-        >
+        <button-with-link
+          buttonText="Wie kann ich einen Vorschlag unterbreiten?"
+          link="https://eb.sabio.de/web/#!/fullscreen/_id/1644246223/text/_id/d10b2c41ac7e48ea9a6a796dd79895fd"
+        ></button-with-link>
       </v-col>
     </v-row>
   </v-container>
@@ -54,8 +39,10 @@
 
 <script>
 import Mooswand_mit_Kacheln from "../../assets/pinnwand/Mooswand_mit_Kacheln.png";
+import ButtonWithLink from "./ButtonWithLink.vue";
 
 export default {
+  components: { ButtonWithLink },
   data: function () {
     return {
       hintergrundBild: Mooswand_mit_Kacheln,
