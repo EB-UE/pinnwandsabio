@@ -9,16 +9,14 @@
     </v-row> -->
 
     <v-row>
-      <v-col>
-        <v-img :src="hintergrundBild"></v-img>
+      <v-col align="center" > 
+        <v-img width="75%" :src="hintergrundBild"></v-img>
       </v-col>
     </v-row>
 
-   <v-row>
+    <v-row>
       <v-col>
-        <span class="text-h5 text-primary"
-          >Wie kann ich ...</span
-        >
+        <span class="text-h5 text-primary">Wie kann ich ...</span>
       </v-col>
     </v-row>
     <v-row>
