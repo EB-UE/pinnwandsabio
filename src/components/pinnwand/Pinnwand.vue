@@ -1,12 +1,12 @@
 <template>
   <v-container>
-    <v-row>
+    <!-- <v-row>
       <v-col>
         <span class="text-h2 text-primary"
           >Herzlich Willkommen im Wissensmanagement der EB-KS</span
         >
       </v-col>
-    </v-row>
+    </v-row> -->
 
     <v-row>
       <v-col>
