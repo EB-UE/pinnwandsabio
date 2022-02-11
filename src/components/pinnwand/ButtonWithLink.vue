@@ -1,6 +1,6 @@
 <template>
   <a target="_blank" rel="noopener noreferrer" :href="link">
-    <v-btn rounded block color="primary">
+    <v-btn rounded block color="primary" size="large">
       <v-icon left> mdi-movie-open-play</v-icon>
       {{ buttonText }}</v-btn
     ></a

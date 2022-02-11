@@ -14,22 +14,29 @@
       </v-col>
     </v-row>
 
+   <v-row>
+      <v-col>
+        <span class="text-h5 text-primary"
+          >Wie kann ich ...</span
+        >
+      </v-col>
+    </v-row>
     <v-row>
       <v-col cols="4">
         <button-with-link
-          buttonText="Wie bediene ich die Suche?"
+          buttonText="die Suche benutzen?"
           link="https://eb.sabio.de/web/#!/fullscreen/_id/1644246169/text/_id/520f21a91e074501b866b43f42c8d57d"
         ></button-with-link>
       </v-col>
       <v-col cols="4">
         <button-with-link
-          buttonText="Wie Kann ich die Ansichten steuern?"
+          buttonText="die Ansichten steuern?"
           link="https://eb.sabio.de/web/#!/fullscreen/_id/1644246199/text/_id/0607fe0c8034467dafa3e1b8af1875ae"
         ></button-with-link>
       </v-col>
       <v-col cols="4">
         <button-with-link
-          buttonText="Wie kann ich einen Vorschlag unterbreiten?"
+          buttonText="einen Vorschlag hinzufügen?"
           link="https://eb.sabio.de/web/#!/fullscreen/_id/1644246223/text/_id/d10b2c41ac7e48ea9a6a796dd79895fd"
         ></button-with-link>
       </v-col>
