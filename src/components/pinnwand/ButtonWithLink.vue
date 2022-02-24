@@ -1,5 +1,5 @@
 <template>
-  <v-btn rounded block color="primary" size="large" :href="link">
+  <v-btn rounded block color="primary" size="large" :href="link" target="_blank">
     <v-icon left> mdi-movie-open-play</v-icon>
     {{ buttonText }}
   </v-btn>
