@@ -28,7 +28,7 @@
         ></button-with-link>
       </v-col>
       <v-col cols="4" align="center" >
-        <v-icon class="super-large-icon mb-2" color="grey">mdi-hand-back-left</v-icon>
+        <v-icon class="super-large-icon mb-2" color="grey">mdi-eye</v-icon>
         <button-with-link
           buttonText="die Ansichten steuern?"
           link="https://eb.sabio.de/web/#!/fullscreen/_id/1644246199/text/_id/0607fe0c8034467dafa3e1b8af1875ae"
@@ -61,6 +61,6 @@ export default {
 
 <style>
 .super-large-icon {
-  font-size: 5em;
+  font-size: 4em;
 }
 </style>
