@@ -61,6 +61,6 @@ export default {
 
 <style>
 .super-large-icon {
-  font-size: 4em;
+  font-size: 3em;
 }
 </style>
